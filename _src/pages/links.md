@@ -1,7 +1,9 @@
 ---
-title: stuff i like to revisit
+title: links
 description: links!
 ---
+## philosophy
+
 - [The Value of Knowledge: A Miniature Library of Philosophy](https://www.marxists.org/reference/subject/philosophy/index.htm)
 - [Theatrum Philosophicum](https://www.generation-online.org/p/fpfoucault5.htm)
 - [Hegel by HyperText](https://www.marxists.org/reference/archive/hegel/)
@@ -11,13 +13,15 @@ description: links!
 - [Why Are There No Female Philosophers?](https://pahoyeck.substack.com/p/why-are-there-no-female-philosophers)
 - [Hellraiser, Bataille and Limit Experiences](https://www.youtube.com/watch?v=3ge0P8z_q1M&t=644s)
 
-***
+## politics
 
 - [Fascism is Pornography](https://smtsmtpostmodern.substack.com/p/fascism-is-pornography)
 - [Everybody Wants to be a Fascist](https://www.thetedkarchive.com/library/felix-guattari-everybody-wants-to-be-a-fascist)
 - [Marx was not a "statist"](https://www.youtube.com/watch?v=rRXvQuE9xO4&t=771s)
+- [The Empire Strikes Back: A Posttranssexual Manifesto](https://sandystone.com/empire-strikes-back.pdf)
+- [Wounded Attachments](https://www.jstor.org/stable/191795)
 
-***
+## hrt
 
 - [valerie diyhrt index](https://valerie.vg/)
 - [trans.diy](https://trans.diy/)
@@ -29,18 +33,22 @@ description: links!
 - [A Practical Guide to Feminising HRT](https://pghrt.diy/)
 - [A Comparison of Oral and Transdermal Estradiol in Transfeminine Hormone Therapy](https://transfemscience.org/articles/oral-vs-transdermal-e2/)
 
-***
+## psychology
 
 - [New MRI Studies Support the Blanchard Typology of Male-to-Female Transsexualism](https://pmc.ncbi.nlm.nih.gov/articles/PMC3180619/)
 - [Autogynephilia in Women](https://www.tandfonline.com/doi/pdf/10.1080/00918360903005212)
 - [Does Autogynephilia Theory Still Provide a Useful Explanatory Framework for Understanding Transfeminine Identity and Sexuality?](https://annelawrence.com/wp-content/uploads/2026/08/Lawrence-2026-AGP-as-Explanatory-Framework.pdf)
 - [Autogynephilia & Ray Blanchard's Mis-Directed Sex-Drive Model of Transsexuality](https://genderpsychology.org/autogynephilia/ray_blanchard/index.html)
+- [Autogynephilia, Junk Science, and Pseudoscience](https://juliaserano.substack.com/p/autogynephilia-junk-science-and-pseudoscience)
 
-***
+## personal
 
 - [All Mixed Up - Gender Identity Disorder & Transgenderism](https://genderpsychology.org/)
+- [More and Happier Women](https://www.cambridge.org/core/journals/hypatia/article/more-and-happier-women-on-the-political-significance-of-wittgenstein-and-hinge-epistemology/7FE42203ECA381E5E5B8E7E843D887BF)
+- [Reconceptualizing Gender (from the Stream of Life)](https://www.cambridge.org/core/journals/hypatia/article/reconceptualizing-gender-from-the-stream-of-life/BA193ADBD424B1135C20A6BECBD839C3)
 - [What Does it Mean to be a Transsexual?](https://genderpsychology.org/transsexual/meaning.html)
+- [What Is a Woman? (a response)](https://juliaserano.substack.com/p/what-is-a-woman-a-response)
 
-***
+## film
 
 - [Envy & Desire: The Trans Minstrel Show Revisited](https://weard.substack.com/p/envy-and-desire-the-trans-minstrel)

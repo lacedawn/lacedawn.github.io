@@ -105,6 +105,7 @@ blockquote {
   border-radius: 0.5rem;
   background: var(--color-quote-bg);
   color: var(--color-text);
+  font-weight: 700;
 }
 
 blockquote p:last-child {

@@ -5,6 +5,7 @@ import re
 import shutil
 import subprocess
 import sys
+import tempfile
 
 SITE_NAME = "lacedawn"
 SITE_URL = "https://lacedawn.github.io"
@@ -13,7 +14,9 @@ HOME_COUNT = 7
 MONTHS_FULL = ("january", "february", "march", "april", "may", "june", "july", "august", "september", "october", "november", "december")
 MONTHS_SHORT = ("jan", "feb", "mar", "apr", "may", "jun", "jul", "aug", "sep", "oct", "nov", "dec")
 SLUG = re.compile(r"[a-z0-9]+(?:-[a-z0-9]+)*")
-LINK_TAG = re.compile(r"<a\s[^<>]*>")
+LINK_TAG = re.compile(r"<a(?:\s[^<>]*)?>", re.IGNORECASE)
+HREF_EXTERNAL = re.compile(r"""\bhref\s*=\s*("|')https?://""", re.IGNORECASE)
+REL_ATTR = re.compile(r"""\brel\s*=""", re.IGNORECASE)
 
 def script_root():
     return os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
@@ -76,10 +79,12 @@ def convert(binary, flag, source_path, template_path, variables):
 
 def external_rel(match):
     tag = match.group(0)
-    if 'href="http://' not in tag and 'href="https://' not in tag:
+    if HREF_EXTERNAL.search(tag) is None:
         return tag
-    if " rel=" in tag:
+    if REL_ATTR.search(tag) is not None:
         return tag
+    if tag.endswith("/>"):
+        return tag[:-2] + ' rel="noopener noreferrer"/>'
     return tag[:-1] + ' rel="noopener noreferrer">'
 
 def postprocess(page, source_label):
@@ -96,17 +101,28 @@ def write_if_changed(path, content):
     folder = os.path.dirname(path)
     if folder and not os.path.isdir(folder):
         os.makedirs(folder)
-    with open(path, "w", encoding="utf-8", newline="\n") as handle:
-        handle.write(content)
+    fd, tmp = tempfile.mkstemp(dir=folder or ".", prefix=".tmp-")
+    try:
+        with os.fdopen(fd, "w", encoding="utf-8", newline="\n") as handle:
+            handle.write(content)
+            handle.flush()
+            os.fsync(handle.fileno())
+        os.replace(tmp, path)
+    except BaseException:
+        try:
+            os.unlink(tmp)
+        except OSError:
+            pass
+        raise
     return True
 
 def replace_element(page, element_id, inner):
-    opening = re.compile(r"<([a-zA-Z][a-zA-Z0-9]*)\b[^<>]*\bid=\"" + element_id + r"\"[^<>]*>")
+    opening = re.compile(r"<([a-zA-Z][a-zA-Z0-9]*)\b[^<>]*\bid\s*=\s*(\"|')" + element_id + r"\2[^<>]*>", re.IGNORECASE)
     match = opening.search(page)
     if match is None:
         return None
     tag = match.group(1)
-    closer = re.compile(r"<(/?)" + tag + r"\b[^<>]*>")
+    closer = re.compile(r"<(/?)" + tag + r"\b[^<>]*>", re.IGNORECASE)
     depth = 1
     for tag_match in closer.finditer(page, match.end()):
         if tag_match.group(0).endswith("/>"):
@@ -206,6 +222,7 @@ def build_sitemap(posts, page_entries):
     lines = ['<?xml version="1.0" encoding="UTF-8"?>', '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">']
     for path, stamp in urls:
         lines += ["  <url>", "    <loc>" + html.escape(site + path, quote=True) + "</loc>", "    <lastmod>" + stamp + "</lastmod>", "  </url>"]
+    lines.append("</urlset>")
     return "\n".join(lines) + "\n"
 
 def main():

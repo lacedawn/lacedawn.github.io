@@ -11,7 +11,7 @@
   --space-s: 0.35rem;
   --space-m: 1rem;
   --space-l: 2.5rem;
-  --font: "Quicksand", "Nunito", system-ui, -apple-system, "Segoe UI", sans-serif;
+  --font: "Quicksand", system-ui, -apple-system, "Segoe UI", sans-serif;
   --avatar-radius: 0.5rem;
 }
 

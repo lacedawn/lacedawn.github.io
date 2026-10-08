@@ -1,0 +1,182 @@
+:root {
+  --color-bg: #ffffff;
+  --color-text: #2b2233;
+  --color-text-muted: #6b6275;
+  --color-link: #7a56c2;
+  --color-link-hover: #c2367a;
+  --color-selection: #e6dcf7;
+  --color-focus: #7a56c2;
+  --measure: 52rem;
+  --space-s: 0.35rem;
+  --space-m: 1rem;
+  --space-l: 2.5rem;
+  --font: "Quicksand", "Nunito", system-ui, -apple-system, "Segoe UI", sans-serif;
+  --avatar-radius: 0.5rem;
+}
+
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+html {
+  -webkit-text-size-adjust: 100%;
+}
+
+body, h1, h2, h3, p, ul, ol, figure, blockquote {
+  margin: 0;
+}
+
+html {
+  background: var(--color-bg);
+}
+
+body {
+  background: var(--color-bg);
+  font-family: var(--font);
+  font-weight: 500;
+  font-size: 1.15rem;
+  line-height: 1.65;
+  color: var(--color-text);
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+}
+
+main {
+  max-width: var(--measure);
+  margin-inline: auto;
+  padding-inline: 1.25rem;
+  padding-block: 3rem 5rem;
+  text-align: left;
+}
+
+h1 {
+  font-weight: 700;
+  font-size: clamp(2rem, 5vw + 1rem, 2.75rem);
+  line-height: 1.15;
+  margin-bottom: 1.75rem;
+}
+
+h2 {
+  font-weight: 700;
+  font-size: 1.75rem;
+  line-height: 1.25;
+  margin-top: 2.5rem;
+  margin-bottom: 1rem;
+}
+
+h3 {
+  font-weight: 700;
+  font-size: 1.35rem;
+  margin-top: 2rem;
+  margin-bottom: 0.75rem;
+}
+
+p {
+  margin-bottom: 1rem;
+}
+
+strong, b {
+  font-weight: 700;
+}
+
+em, i {
+  font-style: italic;
+  font-synthesis-style: auto;
+}
+
+ul, ol {
+  padding-left: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+li + li {
+  margin-top: var(--space-s);
+}
+
+blockquote {
+  margin-inline: 0;
+  padding-left: 1.25rem;
+  color: var(--color-text-muted);
+}
+
+code, pre, kbd {
+  font-family: ui-monospace, "SF Mono", Menlo, Consolas, monospace;
+  font-size: 0.95em;
+}
+
+pre {
+  overflow-x: auto;
+  margin-bottom: 1rem;
+}
+
+hr {
+  border: 0;
+  margin-block: 2rem;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+figcaption {
+  font-size: 0.95rem;
+  color: var(--color-text-muted);
+  margin-top: 0.5rem;
+}
+
+a {
+  color: var(--color-link);
+  text-decoration: underline;
+  text-decoration-thickness: 1px;
+  text-underline-offset: 0.2em;
+  transition: color 150ms ease;
+  overflow-wrap: anywhere;
+}
+
+a:visited {
+  color: var(--color-link);
+}
+
+a:hover, a:focus-visible {
+  color: var(--color-link-hover);
+}
+
+:focus-visible {
+  outline: 2px solid var(--color-focus);
+  outline-offset: 3px;
+  border-radius: 2px;
+}
+
+::selection {
+  background: var(--color-selection);
+  color: var(--color-text);
+}
+
+.site-note {
+  margin-top: 4rem;
+  font-size: 0.95rem;
+  color: var(--color-text-muted);
+}
+
+.avatar {
+  display: block;
+  width: 15rem;
+  height: 15rem;
+  object-fit: cover;
+  border-radius: var(--avatar-radius);
+  margin-block: 1rem 1.25rem;
+}
+
+#bataille-quote {
+  font-size: 0.95rem;
+  color: var(--color-text-muted);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after {
+    transition: none;
+  }
+}

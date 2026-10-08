@@ -1,6 +1,6 @@
 ---
 title: stuff i like to revisit
-description: [write description here]
+description: links!
 ---
 - [The Value of Knowledge: A Miniature Library of Philosophy](https://www.marxists.org/reference/subject/philosophy/index.htm)
 - [Theatrum Philosophicum](https://www.generation-online.org/p/fpfoucault5.htm)

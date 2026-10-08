@@ -2,8 +2,6 @@
 title: why this exists
 date: 2026-10-08
 ---
-<p class="post-meta"><time datetime="2026-10-08">october 8, 2026</time></p>
-
 > Everything I lived, said, or wrote — everything I loved — I considered communication[^1]
 
 > Instead of gambling on the eternal impossibility of the revolution and on the fascist return of a war-machine in general, why not think that a new type of revolution is in the course of becoming possible, and that all kinds of mutating, living machines conduct wars, are combined and trace out a plane of consistence which undermines the plane of organization of the World and the States?[^2]

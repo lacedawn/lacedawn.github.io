@@ -9,7 +9,6 @@ import sys
 SITE_NAME = "lacedawn"
 SITE_URL = "https://lacedawn.github.io"
 HOME_COUNT = 7
-FEED_COUNT = 20
 
 MONTHS_FULL = ("january", "february", "march", "april", "may", "june", "july", "august", "september", "october", "november", "december")
 MONTHS_SHORT = ("jan", "feb", "mar", "apr", "may", "jun", "jul", "aug", "sep", "oct", "nov", "dec")
@@ -159,7 +158,7 @@ def build_source(kind, root, binary, flag, name, problems, changed, posts, page_
             problems.append("warning: draft " + label + " already has " + output_rel)
         return "draft"
     day = None
-    if kind == "writings":
+    if meta.get("date"):
         try:
             day = datetime.date.fromisoformat(meta["date"])
         except ValueError:
@@ -178,10 +177,13 @@ def build_source(kind, root, binary, flag, name, problems, changed, posts, page_
         return None
     if write_if_changed(os.path.join(root, output_rel), postprocess(page, "_src/" + kind + "/" + name)):
         changed.append(output_rel)
-    if day is not None:
+    if kind == "writings":
         posts.append({"slug": slug, "title": meta["title"], "date": day, "home": meta.get("home", "").lower() != "false"})
     else:
-        stamp = datetime.date.fromtimestamp(os.path.getmtime(source_path)).isoformat()
+        if day is not None:
+            stamp = day.isoformat()
+        else:
+            stamp = datetime.date.fromtimestamp(os.path.getmtime(source_path)).isoformat()
         page_entries.append((output_rel, stamp))
     return "built"
 

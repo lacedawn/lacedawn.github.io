@@ -121,14 +121,16 @@ def replace_element(page, element_id, inner):
     return None
 
 def home_inner(posts):
-    items = ['<li><a href="writings/' + post["slug"] + '.html">' + html.escape(post["title"]) + "</a></li>" for post in posts[:HOME_COUNT]]
+    visible = [post for post in posts if post["home"]]
+    items = ['<li><a href="writings/' + post["slug"] + '.html">' + html.escape(post["title"]) + "</a></li>" for post in visible[:HOME_COUNT]]
     return "\n" + "\n".join(items) + "\n" if items else ""
 
 def archive_inner(posts):
+    drafts = [post for post in posts if not post["home"]]
     blocks = []
-    for year in sorted({post["date"].year for post in posts}, reverse=True):
+    for year in sorted({post["date"].year for post in drafts}, reverse=True):
         items = []
-        for post in posts:
+        for post in drafts:
             if post["date"].year != year:
                 continue
             day = MONTHS_SHORT[post["date"].month - 1] + " " + str(post["date"].day)
@@ -177,7 +179,7 @@ def build_source(kind, root, binary, flag, name, problems, changed, posts, page_
     if write_if_changed(os.path.join(root, output_rel), postprocess(page, "_src/" + kind + "/" + name)):
         changed.append(output_rel)
     if day is not None:
-        posts.append({"slug": slug, "title": meta["title"], "date": day})
+        posts.append({"slug": slug, "title": meta["title"], "date": day, "home": meta.get("home", "").lower() != "false"})
     else:
         stamp = datetime.date.fromtimestamp(os.path.getmtime(source_path)).isoformat()
         page_entries.append((output_rel, stamp))

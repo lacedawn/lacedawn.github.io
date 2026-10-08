@@ -6,6 +6,7 @@
   --color-link-hover: #c2367a;
   --color-selection: #e6dcf7;
   --color-focus: #7a56c2;
+  --color-quote-bg: #f3eefb;
   --measure: 52rem;
   --space-s: 0.35rem;
   --space-m: 1rem;
@@ -96,8 +97,18 @@ li + li {
 
 blockquote {
   margin-inline: 0;
-  padding-left: 1.25rem;
-  color: var(--color-text-muted);
+  margin-bottom: 1rem;
+  width: fit-content;
+  max-width: 100%;
+  padding: 1rem 1.25rem;
+  border-left: 3px solid var(--color-link);
+  border-radius: 0.5rem;
+  background: var(--color-quote-bg);
+  color: var(--color-text);
+}
+
+blockquote p:last-child {
+  margin-bottom: 0;
 }
 
 code, pre, kbd {

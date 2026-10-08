@@ -1,6 +1,6 @@
 ---
 title: stuff i like to revisit
-description: [write description here]
+description: [stuff]
 ---
 - [philosophy](#philosophy)
 - [politics](#politics)

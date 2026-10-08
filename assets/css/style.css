@@ -34,7 +34,7 @@ html {
 body {
   background: var(--color-bg);
   font-family: var(--font);
-  font-weight: 500;
+  font-weight: 600;
   font-size: 1.15rem;
   line-height: 1.65;
   color: var(--color-text);

@@ -1,7 +1,6 @@
 ---
 title: why this exists
 date: 2026-10-08
-description: "Everything I lived, said, or wrote — everything I loved — I considered communication"
 ---
 <p class="post-meta"><time datetime="2026-10-08">october 8, 2026</time></p>
 

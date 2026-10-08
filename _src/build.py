@@ -6,8 +6,8 @@ import shutil
 import subprocess
 import sys
 
-SITE_NAME = "lacedawn's blog"
-SITE_URL = "[SITE_URL]"
+SITE_NAME = "lacedawn"
+SITE_URL = "https://lacedawn.github.io"
 HOME_COUNT = 7
 FEED_COUNT = 20
 
@@ -136,7 +136,7 @@ def archive_inner(posts):
         blocks.append("<h2>" + str(year) + "</h2>\n<ul>\n" + "\n".join(items) + "\n</ul>")
     return "\n" + "\n".join(blocks) + "\n" if blocks else ""
 
-def build_source(kind, root, binary, flag, name, problems, changed, posts):
+def build_source(kind, root, binary, flag, name, problems, changed, posts, page_entries):
     label = kind + "/" + name
     slug = name[:-3]
     if SLUG.fullmatch(slug) is None:
@@ -178,6 +178,9 @@ def build_source(kind, root, binary, flag, name, problems, changed, posts):
         changed.append(output_rel)
     if day is not None:
         posts.append({"slug": slug, "title": meta["title"], "date": day})
+    else:
+        stamp = datetime.date.fromtimestamp(os.path.getmtime(source_path)).isoformat()
+        page_entries.append((output_rel, stamp))
     return "built"
 
 def refresh_list(root, filename, element_id, inner, problems, changed, optional):
@@ -190,19 +193,31 @@ def refresh_list(root, filename, element_id, inner, problems, changed, optional)
     if write_if_changed(path, updated):
         changed.append(filename)
 
+def build_sitemap(posts, page_entries):
+    site = SITE_URL.rstrip("/")
+    newest = posts[0]["date"].isoformat() if posts else datetime.date.today().isoformat()
+    urls = [("/", newest), ("/archive.html", newest)]
+    urls += [("/" + rel, stamp) for rel, stamp in sorted(page_entries)]
+    urls += [("/writings/" + post["slug"] + ".html", post["date"].isoformat()) for post in posts]
+    lines = ['<?xml version="1.0" encoding="UTF-8"?>', '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">']
+    for path, stamp in urls:
+        lines += ["  <url>", "    <loc>" + html.escape(site + path, quote=True) + "</loc>", "    <lastmod>" + stamp + "</lastmod>", "  </url>"]
+    return "\n".join(lines) + "\n"
+
 def main():
     root = script_root()
     binary = pandoc_binary()
     if binary is None:
         return 1
     flag, problems, changed, posts = highlight_flag(binary), [], [], []
+    page_entries = []
     counts, drafts = {"writings": 0, "pages": 0}, []
     for kind in ("writings", "pages"):
         folder = os.path.join(root, "_src", kind)
         if not os.path.isdir(folder):
             continue
         for name in markdown_files(folder):
-            result = build_source(kind, root, binary, flag, name, problems, changed, posts)
+            result = build_source(kind, root, binary, flag, name, problems, changed, posts, page_entries)
             if result == "built":
                 counts[kind] += 1
             elif result == "draft":
@@ -210,6 +225,8 @@ def main():
     posts.sort(key=lambda post: (post["date"], post["title"]), reverse=True)
     refresh_list(root, "index.html", "writings-list", home_inner(posts), problems, changed, False)
     refresh_list(root, "archive.html", "archive-list", archive_inner(posts), problems, changed, True)
+    if write_if_changed(os.path.join(root, "sitemap.xml"), build_sitemap(posts, page_entries)):
+        changed.append("sitemap.xml")
     for problem in problems:
         print(problem)
     summary = "built " + str(counts["writings"]) + " writings and " + str(counts["pages"]) + " pages"

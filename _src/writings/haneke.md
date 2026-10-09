@@ -2,6 +2,7 @@
 title: haneke
 date: 2026-08-24
 description: i love you michael!!!!!!!!!!!!!1111
+home: false
 ---
 Michael Haneke was one of the first directors to introduce me to high art cinema, and I find it ironic that his films are considered high art, the medium typically associated with the upper class, bourgeois society, the very thing he explicitly criticizes
 

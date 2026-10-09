@@ -107,7 +107,7 @@ Iraq's laws, its health sector and its dominant religious authorities, as well a
 
 ## Sources
 
-1. <a id="source-1"></a>ILGA Asia, "IRAQ: Authorities must urgently repeal legislation criminalising LGBTIQ persons." [<https://ilgaasia.org/news/iraq-authorities-must-urgently-repeal-legislation-criminalising-lgbtiq-persons](https://www.ilgaasia.org/publications/IRAQStatement2024)> <a href="#cite-1">↩</a>
+1. <a id="source-1"></a>ILGA Asia, "IRAQ: Authorities must urgently repeal legislation criminalising LGBTIQ persons." [https://www.ilgaasia.org/publications/IRAQStatement2024](https://www.ilgaasia.org/publications/IRAQStatement2024) <a href="#cite-1">↩</a>
 
 2. <a id="source-2"></a>Law No. 15 of 2024, amending the Law on Combating Prostitution No. 8 of 1988. Full text published in *Al-Waqa'i al-Iraqiya*, No. 4781, 1 July 2024. ILO NATLEX. <https://natlex.ilo.org/dyn/natlex2/r/natlex/fe/details?p3_isn=116574> <a href="#cite-2">↩</a>
 

@@ -48,6 +48,7 @@ description: links!
 - [Reconceptualizing Gender (from the Stream of Life)](https://www.cambridge.org/core/journals/hypatia/article/reconceptualizing-gender-from-the-stream-of-life/BA193ADBD424B1135C20A6BECBD839C3)
 - [What Does it Mean to be a Transsexual?](https://genderpsychology.org/transsexual/meaning.html)
 - [What Is a Woman? (a response)](https://juliaserano.substack.com/p/what-is-a-woman-a-response)
+- [Living on the Margins](https://www.iraqueer.org/uploads/1/2/4/0/124034920/living_on_the_margins_1.pdf)
 
 ## film
 

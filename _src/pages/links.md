@@ -12,6 +12,7 @@ description: links!
 - [Meditations on Machinic Desire](https://nothinghuman.substack.com/p/meditations-on-machinic-desire)
 - [Why Are There No Female Philosophers?](https://pahoyeck.substack.com/p/why-are-there-no-female-philosophers)
 - [Hellraiser, Bataille and Limit Experiences](https://www.youtube.com/watch?v=3ge0P8z_q1M&t=644s)
+- [The perversions of M. Foucault](https://newcriterion.com/article/the-perversions-of-m-foucault/)
 
 ## politics
 
@@ -40,6 +41,7 @@ description: links!
 - [Does Autogynephilia Theory Still Provide a Useful Explanatory Framework for Understanding Transfeminine Identity and Sexuality?](https://annelawrence.com/wp-content/uploads/2026/08/Lawrence-2026-AGP-as-Explanatory-Framework.pdf)
 - [Autogynephilia & Ray Blanchard's Mis-Directed Sex-Drive Model of Transsexuality](https://genderpsychology.org/autogynephilia/ray_blanchard/index.html)
 - [Autogynephilia, Junk Science, and Pseudoscience](https://juliaserano.substack.com/p/autogynephilia-junk-science-and-pseudoscience)
+- [How much is sexual minority stress confounded with familial causes? A systematic multilevel meta-analysis](https://www.cambridge.org/core/journals/psychological-medicine/article/how-much-is-sexual-minority-stress-confounded-with-familial-causes-a-systematic-multilevel-metaanalysis/A681A8ACF60DAEC2CFE9F652184F4CF4)
 
 ## personal
 
@@ -53,3 +55,7 @@ description: links!
 ## film
 
 - [Envy & Desire: The Trans Minstrel Show Revisited](https://weard.substack.com/p/envy-and-desire-the-trans-minstrel)
+
+## other
+
+- [meltdown](http://www.ccru.net/swarm1/1_melt.htm)

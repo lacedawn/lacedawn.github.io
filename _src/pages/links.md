@@ -42,6 +42,19 @@ description: links!
 - [Autogynephilia & Ray Blanchard's Mis-Directed Sex-Drive Model of Transsexuality](https://genderpsychology.org/autogynephilia/ray_blanchard/index.html)
 - [Autogynephilia, Junk Science, and Pseudoscience](https://juliaserano.substack.com/p/autogynephilia-junk-science-and-pseudoscience)
 - [How much is sexual minority stress confounded with familial causes? A systematic multilevel meta-analysis](https://www.cambridge.org/core/journals/psychological-medicine/article/how-much-is-sexual-minority-stress-confounded-with-familial-causes-a-systematic-multilevel-metaanalysis/A681A8ACF60DAEC2CFE9F652184F4CF4)
+- [Gender Dysphoria, Sexuality and Autism Spectrum Disorders: A Systematic Map Review (Øien et al., 2018)](https://pubmed.ncbi.nlm.nih.gov/30019279/)
+- [Autism Spectrum Disorder and Gender Dysphoria/Incongruence. A systematic Literature Review and Meta-Analysis (Kallitsounaki & Williams)](https://pmc.ncbi.nlm.nih.gov/articles/PMC10313553)
+- [Concurrent Gender Dysphoria/Incongruence and Autism Spectrum Disorder, a literature review (2024)](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC11862609/)
+
+## neuroscience
+
+- [Structural, Functional, and Metabolic Brain Differences as a Function of Gender Identity or Sexual Orientation: A Systematic Review of the Human Neuroimaging Literature](https://pmc.ncbi.nlm.nih.gov/articles/PMC8604863)
+- [The Neuroanatomy of Transgender Identity: Mega-Analytic Findings From the ENIGMA Transgender Persons Working Group](https://pubmed.ncbi.nlm.nih.gov/34030966/)
+- [A sex difference in the hypothalamic uncinate nucleus: Relationship to gender identity](https://pubmed.ncbi.nlm.nih.gov/18980961/)
+- [Sexual Differentiation of the Bed Nucleus of the Stria Terminalis in Humans May Extend into Adulthood](https://pubmed.ncbi.nlm.nih.gov/11826131/)
+- [A sex difference in the human brain and its relation to transsexuality](https://bennington.edu/doc/21531)
+- [Male-to-female transsexuals have female neuron numbers in a limbic nucleus](https://pubmed.ncbi.nlm.nih.gov/10843193/)
+- [Cortical Thickness in Untreated Transsexuals](https://es.scribd.com/document/203789654/TRANS-ART-2)
 
 ## personal
 

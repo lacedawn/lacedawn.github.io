@@ -33,7 +33,6 @@
   --color-link-hover: #c2367a;
   --color-selection: #e6dcf7;
   --color-focus: #7a56c2;
-  --color-quote-bg: #f3eefb;
   --color-heart: #c2367a;
   --measure: 52rem;
   --space-s: 0.35rem;
@@ -147,16 +146,10 @@ li + li {
 }
 
 blockquote {
-  margin-inline: 0;
-  margin-bottom: 1rem;
-  width: fit-content;
-  max-width: 100%;
-  padding: 1rem 1.25rem;
-  border-left: 0.2rem solid var(--color-link);
-  border-radius: 0.5rem;
-  background: var(--color-quote-bg);
-  color: var(--color-text);
-  font-weight: 700;
+  margin-block: 1.5rem;
+  padding-left: 1rem;
+  border-left: 3px solid var(--color-link);
+  color: var(--color-text-muted);
 }
 
 blockquote p:last-child {
@@ -271,10 +264,6 @@ a:hover, a:focus-visible {
 
   a, a:visited {
     color: #000;
-  }
-
-  blockquote {
-    background: #fff;
   }
 
   .site-note {

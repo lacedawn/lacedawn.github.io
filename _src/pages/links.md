@@ -68,6 +68,7 @@ description: links!
 ## film
 
 - [Envy & Desire: The Trans Minstrel Show Revisited](https://weard.substack.com/p/envy-and-desire-the-trans-minstrel)
+- [Analyzing Bergman's Karin in Through a Glass Darkly](https://www.jstor.org/stable/26410799)
 
 ## other
 

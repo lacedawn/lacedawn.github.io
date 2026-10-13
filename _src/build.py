@@ -162,7 +162,7 @@ def build_source(kind, root, binary, flag, name, problems, changed, posts, page_
     source_path = os.path.join(root, "_src", kind, name)
     meta, body = read_metadata(source_path)
     if kind == "writings":
-        needed, output_rel, template = ("title", "date", "description"), "writings/" + slug + ".html", os.path.join(root, "_src", "templates", "post.html")
+        needed, output_rel, template = ("title", "date"), "writings/" + slug + ".html", os.path.join(root, "_src", "templates", "post.html")
     else:
         needed, output_rel, template = ("title",), slug + ".html", os.path.join(root, "_src", "templates", "page.html")
     missing = [key for key in needed if not meta.get(key)]

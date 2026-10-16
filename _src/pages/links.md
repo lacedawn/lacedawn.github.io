@@ -13,6 +13,7 @@ description: links!
 - [Why Are There No Female Philosophers?](https://pahoyeck.substack.com/p/why-are-there-no-female-philosophers)
 - [Hellraiser, Bataille and Limit Experiences](https://www.youtube.com/watch?v=3ge0P8z_q1M&t=644s)
 - [The perversions of M. Foucault](https://newcriterion.com/article/the-perversions-of-m-foucault/)
+- [Why Do People Fight for Their Servitude as If It Were Their Salvation?](https://www.versobooks.com/en-gb/blogs/news/3844-why-do-people-fight-for-their-servitude-as-if-it-were-their-salvation)
 
 ## politics
 

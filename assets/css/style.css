@@ -34,7 +34,7 @@
   --color-selection: #e6dcf7;
   --color-focus: #7a56c2;
   --color-heart: #c2367a;
-  --measure: 38rem;
+  --measure: 44rem;
   --space-s: 0.35rem;
   --space-m: 1rem;
   --space-l: 2.5rem;
@@ -63,7 +63,7 @@ body {
   font-family: var(--font);
   font-weight: 500;
   font-size: 1.1rem;
-  line-height: 1.65;
+  line-height: 1.6;
   color: var(--color-text);
   font-synthesis: none;
   text-rendering: optimizeLegibility;
@@ -81,7 +81,7 @@ h1 {
   font-weight: 700;
   font-size: clamp(2rem, 5vw + 1rem, 2.75rem);
   line-height: 1.15;
-  margin-bottom: 1.75rem;
+  margin-bottom: 1rem;
 }
 
 h2 {
@@ -100,7 +100,7 @@ h3 {
 }
 
 p {
-  margin-bottom: 1rem;
+  margin-bottom: 1em;
 }
 
 strong, b {

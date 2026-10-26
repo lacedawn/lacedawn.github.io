@@ -34,7 +34,7 @@
   --color-selection: #e6dcf7;
   --color-focus: #7a56c2;
   --color-heart: #c2367a;
-  --measure: 52rem;
+  --measure: 38rem;
   --space-s: 0.35rem;
   --space-m: 1rem;
   --space-l: 2.5rem;
@@ -61,8 +61,8 @@ html {
 body {
   background: var(--color-bg);
   font-family: var(--font);
-  font-weight: 600;
-  font-size: 1.15rem;
+  font-weight: 400;
+  font-size: 1.1rem;
   line-height: 1.65;
   color: var(--color-text);
   font-synthesis: none;
@@ -148,7 +148,6 @@ li + li {
 blockquote {
   margin-block: 1.5rem;
   padding-left: 1rem;
-  border-left: 3px solid var(--color-link);
   color: var(--color-text-muted);
 }
 

@@ -7,7 +7,7 @@ description: links!
 - [The Value of Knowledge: A Miniature Library of Philosophy](https://www.marxists.org/reference/subject/philosophy/index.htm)
 - [Theatrum Philosophicum](https://www.generation-online.org/p/fpfoucault5.htm)
 - [Hegel by HyperText](https://www.marxists.org/reference/archive/hegel/)
-- [A Quick and Dirty Guide to Psychoanalysis](https://psuedoanalysis.blogspot.com/p/a-quick-and-dirty-guide-to.html)
+- [A Quick and Dirty Guide to Accelerationism](https://ia800800.us.archive.org/29/items/nick_land_writings/LAND%2C%20Nick%20-%20A%20Quick%20and%20Dirty%20Introduction%20to%20Accelerationism.pdf)
 - [Welcome to the Desert of the Real](https://www.lacan.com/desertsymf.htm)
 - [Meditations on Machinic Desire](https://nothinghuman.substack.com/p/meditations-on-machinic-desire)
 - [Why Are There No Female Philosophers?](https://pahoyeck.substack.com/p/why-are-there-no-female-philosophers)

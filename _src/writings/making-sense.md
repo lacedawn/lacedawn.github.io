@@ -1,0 +1,37 @@
+---
+title: making sense
+date: 2026-10-26
+---
+even tho i take writing as the one hobby of mine that doesn't involve just consumption, but creating, i dislike everything i write. i physically cringe reading any article of mine, i hate its form, its voice and everything about it. i've been trying to be experimental with the things i write, do things in a new way and see where it takes me. sometimes i want to be experimental, explosive, i just want to do things with words because it's my only form of expression. my extreme shyness and insecurity made it impossible for me to use even my voice as a form of communication. so writing became the only way for me to even say anything, it's the only form of communication that i can *somewhat* genuinely engage in 
+
+i've always struggled with communication in general, i was raised up really lonely and i never had any friends in real life largely due to my environment. it's near impossible for me to make a genuine relationship with anyone around me and i'm not interested in making a relationship for the looks, or to just spend time
+
+up until 13, i didn't have a single genuine relationship with another human. ive always been shy, and i didn't know how to talk to people or handle social interactions at all. i didn't have any interests because, well, i didn't even have the chance explore new things. my life revolved around studying and studying only because of my mom's perfectionism when it came to my grades. that's all my life was: school, homework, grades, etc.. i didn't even have a sense of myself or of life in general, i was so absorbed in school it's all that ever mattered, my consciousness was just that small
+
+everything was as clear as it could be, nothing was nuanced, nothing required critical thought. this ideal, repetitive and painfully mundane way of experiencing life lacked any type of adventure or a chance to go through an experience i would learn anything from. i think that's mainly why i ended up having so many struggles with communication.
+
+at around 13, i started to have a sense of my identity and myself as a person navigating this life. it was around that time that i came out as trans and every life experience that i have avoided and been blocked from has now started mattering more than ever
+
+accepting that you're trans in an environment like this means accepting a lot of other things, notably the fact that being trans would mean total detachment from your family, a family is no longer a thing that concerns your life. you have no family, it doesn't mean anything to have a mother or a father if you know with absolute certainty that there's no way in hell that your family would even begin to understand this identity. family becomes a means to an end where the end is the family not being a part of your life any more. to pursue identity freedom in this kind of life is to accept that there is no future where you would have a family
+
+at first, this was daunting to 13 years old me. i was never close to my parents and my relationship with them consisted of mostly just informing them about my grades, but it still felt scary to me that from this point forward i have no one in this world who knows who i am even. i didn't think i could ever leave them either, but slowly, i just accepted it as one of the many things that you need to give up on for the sake of truth in your identity and my detachment from my parents grew even stronger where my relationship with them became extremely superficial and distant
+
+like anyone in a place like this, i resorted to making friends online, tho this was never a deliberate decision and my first relationship *just happened*, but ever since that time i noticed that i struggle with communication even online. i remember staring at texts for a long time just thinking about a reply to send, or pretending like im offline just because i don't know what to say, and voice calling sounded like a death sentence. i got in my first romantic relationship because i didn't know how to say no 
+
+i can't really say that a lot has changed ever since that time now that i turned 18 about a week ago, and honestly, it's really embarrassing for me to admit that but i think in some ways it has gotten worse, especially recently
+
+the thing is, as time passed, the need for communication gradually became more necessary and i would find myself in a lot of situations that cause me extreme, physically painful anxiety over an interaction that i know wouldn't last for more than 10 seconds. it's also slightly embarrassing that im 18 and i can't even voice call with people who are closest to me
+
+i really appreciate online services like ride hailing and delivery apps, i know it's bad for me especially to rely on them and i should instead push myself into social interactions but they have made my life so much easier a lot of the time, and they have saved me a lot of anxiety inducing interactions 
+
+it's so scary how hard just interacting with another human can be, and i grieve so many chances, experiences and relationships that were lost just because of how shy i am. i'm not really a person who likes to blame their current behavior on their childhood, but sometimes i just really want a system to make sense of why i am like this and i think the way i lived my childhood and my identity had the most relevant impact
+
+one of the experiences i grieve the most is just trying out new places. it can be any type of place really: a book store, a library or just a restaurant. it's really hard for me to go into a new place that i don't know exactly how it operates and looks from the inside. in other words, i can't go anywhere i haven't been before with another person first
+
+there used to be this cafe i wanted to go in really really badly and there had been so many times where i would get to the door handles just to pull away, that was until i convinced my classmate to go with me and ever since that time i started spending so much time in the cafe. i can't even imagine how i would've spent my free time between classes if not for that cafe, and im very certain if my classmate never came with me i would've never gone myself
+
+thinking back on it, i don't really want to say that i even have writing as a thing going on for me, im awfully terrible at it and it's such a rare occurrence for me to have anything to write about, so there's that. it's only sometimes that there's something interesting i think about after reading something that connects with another already existing idea that i have such urgency to put it in to writing
+
+it's just that on principle i think it's good to have hobbies beyond mere consumption like listening to music, reading or watching films. i think it's good to create, any form of creation is good 
+
+confrontation is scary

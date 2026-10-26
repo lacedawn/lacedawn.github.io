@@ -2,11 +2,11 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://lacedawn.github.io/</loc>
-    <lastmod>2026-10-24</lastmod>
+    <lastmod>2026-10-26</lastmod>
   </url>
   <url>
     <loc>https://lacedawn.github.io/archive.html</loc>
-    <lastmod>2026-10-24</lastmod>
+    <lastmod>2026-10-26</lastmod>
   </url>
   <url>
     <loc>https://lacedawn.github.io/links.html</loc>
@@ -15,6 +15,10 @@
   <url>
     <loc>https://lacedawn.github.io/why-this-exists.html</loc>
     <lastmod>2026-10-08</lastmod>
+  </url>
+  <url>
+    <loc>https://lacedawn.github.io/writings/making-sense.html</loc>
+    <lastmod>2026-10-26</lastmod>
   </url>
   <url>
     <loc>https://lacedawn.github.io/writings/sentimentalities.html</loc>

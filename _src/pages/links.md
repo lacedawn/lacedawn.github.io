@@ -71,6 +71,10 @@ description: links!
 - [Envy & Desire: The Trans Minstrel Show Revisited](https://weard.substack.com/p/envy-and-desire-the-trans-minstrel)
 - [Analyzing Bergman's Karin in Through a Glass Darkly](https://www.jstor.org/stable/26410799)
 
+> "What has been most responsible for the lack of development of the cinematic idiom is the emphatic literacy of our age. So accustomed are we to thinking in terms of the continuity-logic of the literary narrative that the narrative pattern has come to completely dominate cinematic expression in spite of the fact that it is, basically, a visual form. We overlook the fact that painting, for instance, is organized in visual logics, or that music is organized in tonal-rhythmic logics; that there are visual and auditory experiences which have nothing to do with the descriptive narrative."
+>
+> — Maya Deren (1946)
+
 ## other
 
 - [meltdown](http://www.ccru.net/swarm1/1_melt.htm)
